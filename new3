@@ -1,0 +1,21 @@
+# homE work:
+# tHis is your homeWork, copy these text to variable.
+# You need to normalize it fROM letter CASEs point oF view also, create one MORE senTENCE
+# witH LAST WoRDS of each existING SENtence and add it to the end of this paragraph.
+
+# It iz misspelling here fix "iz" with correct "is", but only when it iz a mistake.
+
+a = """homE work:
+tHis is your homeWork, copy these text to variable.
+You need to normalize it fROM letter CASEs point oF view also, create one MORE senTENCE
+witH LAST WoRDS of each existING SENtence and add it to the end of this paragraph."""
+
+print('. '.join(list(map(lambda x: x.strip().capitalize(), a.split('.')))))
+
+b = """Variable error in paragraph."""
+
+c = """It iz misspelling here fix "iz" with correct "is", but only when it iz a mistake."""
+
+print(c.replace('iz', 'is'))
+
+
